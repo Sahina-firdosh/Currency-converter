@@ -1,0 +1,109 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    display: flex;
+    color: white;
+    background-color: rgb(213, 232, 248);
+}
+
+.container{
+    background-color: rgb(3, 3, 88);
+    border-radius: 10px;
+    min-height: 65vh;
+    width: 70vh;
+}
+
+h1{
+    font-size: 45px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+p{
+    font-size: 27px;
+    padding: 5px 0 5px 0;
+}
+
+.from_amount p, .to_amount p{
+    font-size: 20px;
+}
+
+form select, button,input{
+    font-size: 17px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    /* padding-bottom: 10px; */
+    text-align: center;
+}
+
+input{
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+.dropdown{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.dropdown i{
+    font-size: 25px;
+}
+
+.from{
+    margin-left: 40px;
+    margin-right: 20px;
+    
+}
+
+.to{
+    margin-left: 20px;
+    margin-right: 40px;
+
+}
+.myselect img{
+    height: 40px;
+    width: 40px;
+}
+
+.myselect{
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 46px;
+    
+}
+
+.myselect select{
+    height: 28px;
+    width: 60%;
+}
+
+.calc:hover{
+    background-color: darkgreen;
+    cursor: pointer;
+}
+
+.calc{
+    background-color: green;
+    color: white;
+    height: 30px;
+    width: 60%;
+    justify-content: center;
+    margin-top: 10px;
+    font-size: 20px;
+}
