@@ -16,23 +16,23 @@ body{
 .container{
     background-color: rgb(3, 3, 88);
     border-radius: 10px;
-    min-height: 65vh;
-    width: 70vh;
+    min-height: 60vmin;
+    width: 65vmin;
 }
 
 h1{
-    font-size: 45px;
+    font-size: 7vmin;
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
 p{
-    font-size: 27px;
+    font-size: 4vmin;
     padding: 5px 0 5px 0;
 }
 
 .from_amount p, .to_amount p{
-    font-size: 20px;
+    font-size: 3vmin;
 }
 
 form select, button,input{
