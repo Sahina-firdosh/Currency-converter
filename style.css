@@ -16,8 +16,8 @@ body{
 .container{
     background-color: rgb(3, 3, 88);
     border-radius: 10px;
-    min-height: 60vmin;
-    width: 65vmin;
+    min-height: 70vmin;
+    width: 70vmin;
 }
 
 h1{
